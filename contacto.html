@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cabañas Alma Comechingon</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Courgette|Merriweather">
+    <script src="https://kit.fontawesome.com/67b83182b2.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div id="menu-hamburger"class="hamburger-icon">
+        <i class="fa-solid fa-bars fa-2xl"></i>
+    </div>
+    <header class="header" id="header">
+        <div class="container">
+            
+            <div class="item-1" id="logo-box">
+                <a href="index.html"><img src="img/logo-transparente.png" alt="logo" id="logo" ></a>
+            </div>
+
+            <div class="item-1" id="name-business">
+                <h1 class="title">Cabañas Alma Comechingón</h1>
+            </div>
+            
+                <nav class="item-1" id="nav-box">
+                    
+                    <div class="menu-principal">
+                        <ul>
+                            <li><a href="index.html" class="item-menu">Inicio</a></li>
+                            <li><a href="ellugar.html" class="item-menu">El complejo</a></li>
+                            <li><a href="cabanas.html" class="item-menu">Cabañas</a></li>
+                            <li><a href="contacto.html"class="item-menu">Contacto</a></li>
+                        </ul>    
+                    </div>
+                </nav>
+            
+        </div>
+    
+    </header>
+<!--form-->
+<h2 id="titulo-contacto">Contacto</h2>
+<p id="texto-contacto">Estamos dispuestos a responder cualquier inquietud</p>
+<div class="container-form">
+    <div class="container-form1">
+        <div class="form">
+            <form action="" name="consultas" autocomplete="on" >
+                
+                <label for="nombre">Nombre y Apellido</label> <br>
+                <input type="text" id="name" name="name" autofocus required><br>
+                <label for="email">Correo electrónico</label> <br>
+                <input type="email" id="email" name="email" required><br>
+                <label for="personas">Cantidad de huéspedes:</label><br>
+                <select name="personas" id="personas">
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                </select><br>
+                <label for="checkin">Fecha de ingreso:</label><br>
+                <input type="date" name="checkin" id="checkin" required><br>
+                <label for="checkout">Fecha de egreso:</label><br>
+                <input type="date" name="checkout" id="checkout" max="2023-04-30" required><br>
+                <textarea name="mensaje" id="mensaje" rows="10" cols="30" placeholder="Déjanos tu consulta aquí"></textarea> <br> 
+                <input type="submit" value="Enviar" onclick="alert('Enviado')">
+            </form>
+        </div>
+</div>
+<div class="container-form2">
+   <div class="contactos">
+        <i class="fa-solid fa-phone fa-2xl"></i>
+        <p>TELÉFONO:</p>
+        <p>3544-615907</p>
+        <i class="fa-solid fa-at fa-2xl"></i>
+        <p>EMAIL:</p>
+        <p>cabanasalmacomechingon@gmail.com</p>
+    
+        <a href="https://www.facebook.com/cabanasalmacomechingon/" target="_blank"><i class="fa-brands fa-square-facebook fa-2xl"></i></a>
+        <a href="https://goo.gl/maps/LDkqkPkRVa1pN31n8" target="_blank"><i class="fa-brands fa-google fa-2xl"></i></a>
+        <a href="https://wa.me/543544615907" target="_blank"><i class="fa-brands fa-whatsapp fa-2xl"></i></a>  
+    </div>
+</div>
+</div>
+    <footer>
+        <div class="menu-footer">
+            <ul class="nav-footer">
+                <li><a href="index.html" class="item-menu">Inicio</a></li>
+                <li><a href="ellugar.html" class="item-menu">El complejo</a></li>
+                
+                <li><a href="cabanas.html" class="item-menu">Cabañas</a></li>
+                <li><a href="contacto.html"class="item-menu">Contacto</a></li>
+            </ul>
+        <div class="address">
+            <address>
+            
+                <p><i class="fa-solid fa-location-dot"></i>Ruta 15 s/n, Villa Cura Brochero, Córdoba.</p>
+                <p><i class="fa-solid fa-envelope"></i>cabanasalmacomechingon@gmail.com</li></p>
+            
+            </address>
+        </div>
+               
+        </div>
+           
+    </footer>
+
+    <script src="js/scrips.js"></script>
+    </body>

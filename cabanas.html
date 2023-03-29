@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cabañas Alma Comechingon</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Courgette|Merriweather">
+    <script src="https://kit.fontawesome.com/67b83182b2.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div id="menu-hamburger"class="hamburger-icon">
+        <i class="fa-solid fa-bars fa-2xl"></i>
+    </div>
+    <header class="header" id="header">
+        <div class="container">
+            
+            <div class="item-1" id="logo-box">
+                <a href="index.html"><img src="img/logo-transparente.png" alt="logo" id="logo" ></a>
+            </div>
+
+            <div class="item-1" id="name-business">
+                <h1 class="title">Cabañas Alma Comechingón</h1>
+            </div>
+            
+                <nav class="item-1" id="nav-box">
+                    
+                    <div class="menu-principal">
+                        <ul>
+                            <li><a href="index.html" class="item-menu">Inicio</a></li>
+                            <li><a href="ellugar.html" class="item-menu">El complejo</a></li>
+                            <li><a href="cabanas.html" class="item-menu">Cabañas</a></li>
+                            <li><a href="contacto.html"class="item-menu">Contacto</a></li>
+                        </ul>    
+                    </div>
+                </nav>
+            
+        </div>
+    
+    </header>
+<h1 class="title-cabana">Las cabañas</h1>
+<div class="container-cabanas">
+    <div class="container-element">
+        
+        <p class="desc-cabana"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi voluptatibus nihil hic fugit, dolor cupiditate nemo enim vel aliquam nesciunt unde quos ea assumenda officiis modi, dolorem rerum? Rem iusto repudiandae, doloremque aspernatur ipsum deleniti modi provident nam. Rem, maxime! um quo fugiat distinctio rem quam qui molestiae modi odit soluta dolor quasi quas consequuntur iure ratione accusamus ipsum saepe magnam nemo velit cum? Hic, maxime!
+        
+    </div>
+
+    <div class="slider" id="slider">
+        <div class="slider-content">
+            
+                <div class="button_slider1"id="prev_btn"><i class="fa-solid fa-circle-chevron-left fa-2xl"></i></div>
+                <div class="button_slider2"id="next_btn"><i class="fa-solid fa-circle-chevron-right fa-2xl"></i></div>
+            
+        </div>
+        <img src="img/habitacion doble cabania para 4 personas traslasierra.jpg" alt="" id="slider1" class="img-slider" >
+        
+    </div>
+</div>  
+
+<div class="nuestros-servicios">
+    <div>
+        <ul class="fa-ul lista-de-servicios">
+            <li class="servicios-items"><span class="fa-li"><i class="fa-solid fa-check"></i></span>Ropa de cama</li>
+            <li class="servicios-items"><span class="fa-li"><i class="fa-solid fa-check"></i></span>Vajilla completa</li>
+            <li class="servicios-items"><span class="fa-li"><i class="fa-solid fa-check"></i></span>TV</li>
+            <li class="servicios-items"><span class="fa-li"><i class="fa-solid fa-check"></i></span>DirecTV prepago</li>
+            <li class="servicios-items"><span class="fa-li"><i class="fa-solid fa-check"></i></span>Cochera individual</li>
+            <li class="servicios-items"><span class="fa-li"><i class="fa-solid fa-check"></i></span>Asador individual</li>
+            
+        </ul>
+    </div>
+    <div>
+            <ul class="fa-ul lista-de-servicios">
+                <li class="servicios-items"><span class="fa-li"><i class="fa-solid fa-check"></i></span>Piscina compartida</li>
+                <li class="servicios-items"><span class="fa-li"><i class="fa-solid fa-check"></i></span>Wi-Fi</li>
+                <li class="servicios-items"><span class="fa-li"><i class="fa-solid fa-check"></i></span>Amplio parque con sombra</li>
+                <li class="servicios-items"><span class="fa-li"><i class="fa-solid fa-check"></i></span>Horno chileno</li>
+                <li class="servicios-items"><span class="fa-li"><i class="fa-solid fa-check"></i></span>Quincho</li>
+                <li sclass="servicios-items"><span class="fa-li"><i class="fa-solid fa-check"></i></span>Juegos infantiles y mesa de ping-pong</li>
+                
+            </ul>   
+           
+        
+    </div>
+</div>
+    <div class="form-container">
+        <div class="form-tarifa">
+            <h2 class="calcule-su-tarifa">Calcule tarifa</h2>
+            <form action="" name="calculartarifa" id="formulario-tarifa">
+                <label for="nombre">¿Cuál es su nombre?</label><br>
+                <input type="text" name="nombre" id="nombre-de-huesped" class="entry"><br>
+                <p class="alerta" id="alerta-nombre"></p>
+                <label for="cantpersonas">¿Cuántas personas en total se alojarán?</label><br>
+                <input type="number" name="cantpersonas" id="cantpersonas" min="2" max="7" class="entry"> <br>
+                <p class="alerta" id="alertacantpers"></p>
+                <label for="cantnoches">¿Cuántas noches de estadía desea?</label><br>
+                <input type="number" name="cantnoches" id="cantnoches" min="3" class="entry">
+                <p class="alerta" id="alertacantnoches"></p>
+                <input type="submit" value="Calcular tarifa" id="botontarifa">  
+            </form>
+        </div>
+
+    <div class="resultado-tarifa">
+        <p class="total-tarifa" id="total-tarifa"></p>
+    </div>
+</div>
+    <footer>
+        <div class="menu-footer">
+            <ul class="nav-footer">
+                <li><a href="index.html" class="item-menu">Inicio</a></li>
+                <li><a href="ellugar.html" class="item-menu">El complejo</a></li>
+                
+                <li><a href="cabanas.html" class="item-menu">Cabañas</a></li>
+                <li><a href="contacto.html"class="item-menu">Contacto</a></li>
+            </ul>
+        <div class="address">
+            <address>
+            
+                <p><i class="fa-solid fa-location-dot"></i>Ruta 15 s/n, Villa Cura Brochero, Córdoba.</p>
+                <p><i class="fa-solid fa-envelope"></i>cabanasalmacomechingon@gmail.com</li></p>
+            
+            </address>
+        </div>
+               
+        </div>
+           
+    </footer>
+
+    
+    <script src="js/prueba.js"></script>
+    </body>
